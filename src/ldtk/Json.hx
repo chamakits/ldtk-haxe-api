@@ -612,6 +612,10 @@ typedef EntityInstanceJson = {
 	@changed("0.4.0")
 	var px: Array<Int>;
 
+	/** Rotation in degrees. **/
+	@changed("1.0.1-chamdev")
+	var rotateRadians: Float;
+
 	/** An array of all custom fields and their values. **/
 	var fieldInstances: Array<FieldInstanceJson>;
 }
